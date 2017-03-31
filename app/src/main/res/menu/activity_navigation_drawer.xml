@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+
+    <group android:checkableBehavior="single"
+
+        >
+        
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="HOME"
+            />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="ABOUT US" />
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="CONTACT US" />
+        <item
+            android:id="@+id/feed"
+            android:icon="@drawable/ic_cloud_done_black_24dp"
+            android:title="FEEDBACK" />
+        <item
+            android:id="@+id/change"
+            android:icon="@drawable/ic_lock_outline_black_24dp"
+            android:title="CHANGE PASSWORD" />
+        <item
+            android:id="@+id/manage"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="MANAGE PROFILE" />
+    </group>
+
+
+
+</menu>

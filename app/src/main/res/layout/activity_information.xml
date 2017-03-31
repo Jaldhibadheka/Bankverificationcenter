@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_information"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abc.bankverficationcenter.Information"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="5">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INFORMATION"
+        android:textAlignment="center"
+        android:layout_weight="0.7"
+        android:textSize="25dp"
+        android:id="@+id/information"
+        android:textColor="#fffefe"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Available "
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textColor="#fffefe"
+        android:background="#da117397"
+        android:id="@+id/available"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Not Available "
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textColor="#fffefe"
+        android:background="#da117397"
+        android:id="@+id/notavailable"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Forward "
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textColor="#fffefe"
+        android:background="#da117397"
+        android:id="@+id/forward"
+        android:layout_marginTop="20dp"
+        />
+</LinearLayout>

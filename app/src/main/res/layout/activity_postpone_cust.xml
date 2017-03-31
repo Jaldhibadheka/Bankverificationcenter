@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_postpone_cust"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.abc.bankverficationcenter.PostponeCust"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:weightSum="3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Postpone Customer"
+        android:textAlignment="center"
+        android:layout_weight="0.40"
+        android:textSize="25dp"
+        android:id="@+id/PostCus"
+        android:textColor="#fffefe"
+        android:paddingBottom="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Remarks"
+        android:layout_weight="0.33"
+        android:textColor="#fffefe"
+        android:textSize="18dp"
+        android:id="@+id/Ftxt"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="#6eb8dbdf"
+        />
+
+
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+        android:layout_weight="0.33"
+        style="@android:style/Widget.DeviceDefault.ActionButton.TextButton"
+        android:background="#6eb8dbdf"
+        ></CalendarView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/sub"
+        android:fontFamily="serif"
+        android:textSize="18dp"
+        android:textColor="#fffefe"
+        android:background="#da117397"
+        android:id="@+id/sub1btn"
+        android:layout_marginTop="30dp"
+        />
+
+</LinearLayout>
